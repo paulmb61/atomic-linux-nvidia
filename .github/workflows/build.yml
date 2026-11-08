@@ -28,7 +28,6 @@ jobs:
         recipe:
           # !! Add your recipes here
           - atomic-linux-nvidia.yml
-          - atomic-linux.yml
     steps:
       # the build is fully handled by the reusable github action
       - name: Build Custom Image
