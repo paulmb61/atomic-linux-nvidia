@@ -40,7 +40,7 @@ modules:
   - type: gnome-extensions
     install:
       - Dash to Dock
-      - Desktop Icons NG (DING)
+      - Gtk4 Desktop Icons NG (DING)
 
   - type: default-flatpaks
     configurations:
