@@ -30,6 +30,7 @@ modules:
         - gnome-tweaks
         - gnome-calculator
         - yaru-theme
+        - loupe
     remove:
       packages:
         - gnome-software
