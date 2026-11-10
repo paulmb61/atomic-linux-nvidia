@@ -44,7 +44,7 @@ modules:
       
   - type: script
     snippets:
-      - chmod +x /usr/share/gnome-shell/extensions/gtk4-ding@://gitlab.com    
+      - chmod +x /usr/share/gnome-shell/extensions/gtk4-ding@smedius.gitlab.com    
 
   - type: default-flatpaks
     configurations:
