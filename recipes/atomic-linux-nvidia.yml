@@ -41,6 +41,10 @@ modules:
     install:
       - Dash to Dock
       - Gtk4 Desktop Icons NG (DING)
+      
+  - type: script
+    snippets:
+      - chmod +x /usr/share/gnome-shell/extensions/gtk4-ding@://gitlab.com    
 
   - type: default-flatpaks
     configurations:
