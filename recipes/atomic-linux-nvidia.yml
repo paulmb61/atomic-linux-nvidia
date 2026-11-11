@@ -62,6 +62,7 @@ modules:
           - ca.desrt.dconf-editor
           - io.gitlab.adhami3310.Impression
           - com.mattjakeman.ExtensionManager
+          - org.libreoffice.LibreOffice
       - notify: false
         scope: user # Also add Flathub user repo, but no user packages
 
