@@ -25,12 +25,8 @@ modules:
       packages:
         - lact
         - gparted
-        - seahorse
-        - gnome-text-editor
         - gnome-tweaks
-        - gnome-calculator
         - yaru-theme
-        - loupe
     remove:
       packages:
         - gnome-software
@@ -52,6 +48,11 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          - org.gnome.seahorse.Application
+          - org.gnome.TextEditor
+          - org.gnome.Calculator
+          - org.gnome.Loupe
+          - org.gnome.Showtime
           - org.mozilla.firefox
           - io.github.kolunmi.Bazaar
           - com.ranfdev.DistroShelf
